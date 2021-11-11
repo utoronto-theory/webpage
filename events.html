@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" media="all" href="inland.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="theory.css" />
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<title>Theory Group at UofT</title>
+</head>
+
+<body>
+<div id="wrapper960" class="clearfix">
+	<!--
+	<div id="toplinks">
+		<ul class="toplinks_links">
+			<li><a href="people.html">People</a></li>
+			<li><a href="#">Top link #2</a></li>
+			<li><a href="#">Top link #3</a></li>
+			<li><a href="#">Top link #4</a></li>
+		</ul>
+	</div>
+-->
+
+	<div id="header" class="clearfix shadow">
+		<div id="sitetitle" class="clearfix">
+			<h1><a href="index.html">Theory Group at UofT</a></h1>
+		</div>
+
+		<div id="nav" class="clearfix">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li>
+						<a href="#">People</a>
+						<ul class="fallback">
+								<li><a href="faculty.html">Faculty and Staff</a></li>
+								<li><a href="postdocs_visitors.html">Postdocs and Visitors</a></li>
+								<li><a href="students.html">Students</a></li>
+								<li><a href="alumni.html">Alumni</a></li>
+						</ul>
+				</li>
+				<li><a href="research.html">Research</a></li>
+				<li><a class="current" href="events.html">Events</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="positions.html">Positions</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- <div class="slider-wrapper"> -->
+	<!-- 	<div id="slider" class="nivoSlider"> -->
+	<!-- 		<img src="images/slider0.jpg" alt="" /> -->
+	<!-- 		<img src="images/slider1.jpg" alt="" /> -->
+	<!-- 		<img src="images/slider2.jpg" alt="" /> -->
+	<!-- 		<img src="images/slider3.jpg" alt="" /> -->
+	<!-- 		<img src="images/slider4.jpg" alt="" /> -->
+	<!-- 	</div> -->
+	<!-- </div> -->
+
+	<div id="content" class="clearfix shadow">
+
+	  <!--<iframe src="https://calendar.google.com/calendar/embed?src=ut.theory%40gmail.com&ctz=America/Toronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+
+	  <iframe style="width:100%" src="https://calendar.google.com/calendar/embed?title=UToronto%20Theory%20events&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=ut.theory%40gmail.com&amp;color=%23B1365F&amp;ctz=America%2FToronto"
+	  style="border-width:0" height="500"
+	  frameborder="0" scrolling="no"></iframe>
+
+	  <br><br>
+	  <p><a href="pastseminars.html">Past seminar talks (2009-2016)</a></p>
+
+	  <h3>On campus</h3>
+	  <p><a href="http://web.cs.toronto.edu/news/events.htm"
+              rel="nofollow">DCS Events Calendar</a></p>
+
+          <!--<p><a href="http://www.cs.toronto.edu/%7Ewgeorge/tss.html">Theory Student Seminar</a><br>-->
+          </p><p><a
+href="http://www.utoronto.ca/reg/list_notices.pl?dept=maths&amp;time_frame=year">Department of Mathematics Seminar Listings</a></p>
+          <p><a href="http://www.fields.utoronto.ca/programs/">Fields Institute Events</a></p>
+	</div>
+
+
+
+
+	<!--
+	<div id="extended" class="clearfix shadow">
+		<div id="trio1">
+			<div class="inner">
+				<h3>Standards-compliant code</h3>
+				<p>The Inland template is written with standards-compliant HTML5 and CSS3.</p>
+			</div>
+		</div>
+
+		<div id="trio2">
+			<div class="inner">
+				<h3>Slider included</h3>
+				<p>The slider is made with a jQuery plugin called <a href="http://nivo.dev7studios.com">Nivo Slider</a>, created by Gilbert Pellegrom of dev7studios and released under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT Licence</a>.</p>
+			</div>
+		</div>
+
+		<div id="trio3">
+			<div class="inner">
+				<h3>Multiple layout options</h3>
+				<p>Single-column, two columns with left or right sidebars, three columns - or a combination of any two layout options.</p>
+			</div>
+		</div>
+	</div>
+	-->
+
+	<div id="footer" class="shadow">
+		<p>&copy; <a href="http://andreasviklund.com/templates/inland/">Template design</a> by
+		<a href="http://andreasviklund.com/">andreasviklund.com</a></p>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(window).load(function() {
+
+		//$('#nav li ul').hide().removeClass('fallback');
+		$('#nav li').hover(
+  		function () {
+    	$('ul', this).stop().slideDown(0);
+  	},
+  	function () {
+    	$('ul', this).stop().slideUp(0);
+  	}
+		);
+
+		$('#slider').nivoSlider();
+	});
+</script>
+</body>
+</html>

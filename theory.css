@@ -1,0 +1,18 @@
+
+
+/*#nav ul li { display:block;}*/
+#nav ul li ul.fallback
+	{
+			display:none;
+			position: absolute;
+			left:0;
+			margin: 0 0 0 0px;
+			padding-top:10px;
+			width:250px;
+			background-color:white;
+			border:1px black solid;
+			z-index:10;
+	}
+#nav ul li ul.fallback li {display:block; float:left; background-color:white; margin-right:50px; margin-bottom:10px;}
+#nav ul li ul.fallback a {display:block; height:30px; padding: 0px; color:#666;}
+#nav ul li ul.fallback a:hover {text-decoration:underline;}
