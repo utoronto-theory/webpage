@@ -5,8 +5,7 @@
     <meta name="description" content="Your description goes here">
     <meta name="keywords" content="your,keywords,goes,here">
     <meta name="author" content="Your Name">
-    <link
-href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz%7CDroid+Sans"
+    <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz%7CDroid+Sans"
       rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" media="all" href="inland.css">
     <link rel="stylesheet" type="text/css" media="all" href="theory.css">
@@ -16,51 +15,36 @@ href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz%7CDroid+Sans"
   </head>
   <body>
     <div id="wrapper960" class="clearfix">
-      <!-- <div id="toplinks"> -->
-      <!--  <ul class="toplinks_links"> -->
-      <!--      <li><a href="people.html">People</a></li> -->
-      <!--      <li><a href="#">Top link #2</a></li> -->
-      <!--      <li><a href="#">Top link #3</a></li> -->
-      <!--      <li><a href="#">Top link #4</a></li> -->
-      <!--  </ul> -->
-      <!-- </div> -->
       <div id="header" class="clearfix shadow">
         <div id="sitetitle" class="clearfix">
-          <h1><a href="https://www.cs.toronto.edu/theory/index.html">
+          <h1><a href="index.html">
               Theory Group at UofT</a>
           </h1>
         </div>
         <div id="nav" class="clearfix">
           <ul>
-            <li><a href="https://www.cs.toronto.edu/theory/index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a class="current" href="#">People</a>
               <ul class="fallback">
-                <li><a href="https://www.cs.toronto.edu/theory/faculty.html">
+                <li><a href="faculty.html">
                     Faculty and Staff</a></li>
-                <li><a href="https://www.cs.toronto.edu/theory/postdocs_visitors.html">
+                <li><a href="postdocs_visitors.html">
                     Postdocs and Visitors</a></li>
-                <li><a href="https://www.cs.toronto.edu/theory/students.html">
+                <li><a href="students.html">
                     Students</a></li>
-                <li><a href="https://www.cs.toronto.edu/theory/alumni.html">
+                <li><a href="alumni.html">
                     Alumni</a></li>
               </ul>
             </li>
-            <li><a href="https://www.cs.toronto.edu/theory/research.html">Research</a></li>
-            <li><a href="https://www.cs.toronto.edu/theory/events.html">Events</a></li>
-            <li><a href="https://www.cs.toronto.edu/theory/courses.html">Courses</a></li>
-            <li><a href="https://www.cs.toronto.edu/theory/positions.html">Positions</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="positions.html">Positions</a></li>
           </ul>
         </div>
       </div>
-      <!--div class="slider-wrapper">
-    <div id="slider" class="nivoSlider">
-      <img src="images/slider0.jpg" alt="" />
-      <img src="images/slider1.jpg" alt="" />
-      <img src="images/slider2.jpg" alt="" />
-      <img src="images/slider3.jpg" alt="" />
-      <img src="images/slider4.jpg" alt="" />
-    </div> -->
-      <div id="extended" class="clearfix shadow"> <a name="faculty"></a>
+
+      <div id="extended" class="clearfix shadow">
         <h2>Postdocs</h2>
         <!-- <div id="trio3"> -->
         <!--   <div class="inner"> </div> -->
@@ -69,8 +53,50 @@ href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz%7CDroid+Sans"
         <!--   <div class="inner"> </div> -->
         <!-- </div> -->
       </div>
+
+      <div id="extended" class="clearfix shadow">
+        <h2>Visitors</h2>
+
+        <div id="trio3">
+            <div class="inner">
+              <div class="fac_img">
+                <a href="https://imada.sdu.dk/u/joan/" target="_blank">
+                    <img src="people/visitors/boyar.jpg" height="180" width="120"/>
+                </a>
+              </div>
+              <div class="fac_info">
+                <p>
+                  <a href="https://imada.sdu.dk/u/joan/" target="_blank">
+                    <strong>Joan Boyar</strong>
+                  </a>
+                  <br/>Online Algorithms,<br/>Optimization
+                </p>
+              </div>
+            </div>
+        </div>
+
+        <div id="trio2">
+            <div class="inner">
+              <div class="fac_img">
+                <a href="https://www.imada.sdu.dk/u/kslarsen/" target="_blank">
+                    <img src="people/visitors/larsen.jpg" height="180" width="120"/>
+                </a>
+              </div>
+              <div class="fac_info">
+                <p>
+                  <a href="https://www.imada.sdu.dk/u/kslarsen/" target="_blank">
+                    <strong>Kim S. Larsen</strong>
+                  </a>
+                  <br/>Online Algorithms,<br/>Data Structures
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+
       <br>
-      <div id="extended" class="clearfix shadow"> <a name="admin"></a>
+
+      <div id="extended" class="clearfix shadow">
         <h2>Postdoc Alumni</h2>
         <div class="inner">
           <ul>
@@ -261,29 +287,25 @@ href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz%7CDroid+Sans"
           </ul>
         </div>
       </div>
+
       <br>
-      <div id="extended" class="clearfix shadow"> <a name="admin"></a>
-        <h2>Visitors</h2>
-        <div class="inner"> </div>
-      </div>
+
       <div id="footer" class="shadow">
         <p>© Template design by <a href="https://andreasviklund.com/">andreasviklund.com</a></p>
       </div>
     </div>
+
     <script type="text/javascript">
-    $(window).load(function() {
-
-        //$('#nav li ul').hide().removeClass('fallback');
+      $(window).load(function() {
         $('#nav li').hover(
-            function () {
-        $('ul', this).stop().slideDown(0);
-        },
-        function () {
-        $('ul', this).stop().slideUp(0);
-        }
+          function () {
+            $('ul', this).stop().slideDown(0);
+          },
+          function () {
+            $('ul', this).stop().slideUp(0);
+          }
         );
-
-    });
-  </script>
+      });
+    </script>
   </body>
 </html>
