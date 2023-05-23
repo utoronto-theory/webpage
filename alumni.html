@@ -17,35 +17,33 @@
   <div id="wrapper960" class="clearfix">
     <div id="header" class="clearfix shadow">
       <div id="sitetitle" class="clearfix">
-    <h1><a href="index.html">Theory Group at UofT</a></h1>
+        <h1><a href="index.html">Theory Group at UofT</a></h1>
       </div>
 
       <div id="nav" class="clearfix">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li>
-        <a class="current" href="#">People</a>
-        <ul class="fallback">
-            <li><a href="faculty.html">Faculty and Staff</a></li>
-            <li><a href="postdocs_visitors.html">Postdocs and Visitors</a></li>
-            <li><a href="students.html">Students</a></li>
-            <li><a href="alumni.html">Alumni</a></li>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a class="current" href="#">People</a>
+            <ul class="fallback">
+              <li><a href="faculty.html">Faculty and Staff</a></li>
+              <li><a href="postdocs_visitors.html">Postdocs and Visitors</a></li>
+              <li><a href="students.html">Students</a></li>
+              <li><a href="alumni.html">Alumni</a></li>
+            </ul>
+          </li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="positions.html">Positions</a></li>
         </ul>
-    </li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="courses.html">Courses</a></li>
-      <li><a href="positions.html">Positions</a></li>
-    </ul>
       </div>
     </div>
 
     <div id="extended" class="clearfix shadow">
       <a name="admin"></a>
       <h2>Student Alumni</h2>
-      For a list of our postdoc alumni, click <a href="postdocs_visitors.html">here</a>.
-      <br />
-      <br />
+      <p>For a list of our postdoc alumni, click <a href="postdocs_visitors.html">here</a>.</p>
       <div class="inner" style="padding-left: 1em;">
         <ul>
           <li><a href="https://www.cs.toronto.edu/%7Ecmacrury/" target="_blank">
@@ -154,17 +152,14 @@
 
   <script type="text/javascript">
     $(window).load(function() {
-
-        //$('#nav li ul').hide().removeClass('fallback');
         $('#nav li').hover(
-            function () {
-        $('ul', this).stop().slideDown(0);
-        },
-        function () {
-        $('ul', this).stop().slideUp(0);
-        }
+          function () {
+            $('ul', this).stop().slideDown(0);
+          },
+          function () {
+            $('ul', this).stop().slideUp(0);
+          }
         );
-
     });
   </script>
 </body>
