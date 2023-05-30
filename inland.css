@@ -168,3 +168,6 @@ Author URI: http://dev7studios.com
 #wrappermobile #content {padding:15px;}
 #wrappermobile #footer{background-color:#f2f2f2;padding:10px 30px;}
 #wrappermobile #footer p{font-size:0.6em;margin:0;padding:0;}
+
+/* Student display */
+.column{float: left; width: 33%; margin-bottom: 2px;}
