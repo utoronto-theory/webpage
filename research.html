@@ -1,59 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Your description goes here" />
-  <meta name="keywords" content="your,keywords,goes,here" />
-  <meta name="author" content="Your Name" />
-  <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
-  <link rel="stylesheet" type="text/css" media="all" href="inland.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="theory.css" />
-  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
-  <title>Theory Group at UofT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research areas in theoretical computer science at the University of Toronto.">
+  <title>Research | Theory Group, University of Toronto</title>
+  <link rel="stylesheet" href="site.css">
+  <script src="js/site.js" defer></script>
 </head>
-
 <body>
-<div id="wrapper960" class="clearfix">
-
-  <div id="header" class="clearfix shadow">
-    <div id="sitetitle" class="clearfix">
-      <div style="float: left;">
-        <h1><a href="index.html">Theory Group </a></h1>
-      </div>
-      <div style="position: relative; bottom: 10px; width: 380px;">
-        <img src="images/uoft_logo_white.png" alt="UofT" 
-          style="width: 30%; height: 30%; padding-left: 15px;">
-      </div>
-    </div>
-    <div id="nav" class="clearfix">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li>
-            <a href="#">People</a>
-            <ul class="fallback">
-              <li><a href="faculty.html">Faculty and Staff</a></li>
-              <li><a href="postdocs_visitors.html">Postdocs and Visitors</a></li>
-              <li><a href="students.html">Students</a></li>
-              <li><a href="alumni.html">Alumni</a></li>
-            </ul>
-        </li>
-        <li><a class="current" href="research.html">Research</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="courses.html">Courses</a></li>
-        <li><a href="positions.html">Positions</a></li>
-      </ul>
-    </div>
+<!-- site-header:start -->
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="university-bar">
+  <div class="site-width university-bar-inner">
+    <a class="university-logo" href="https://www.utoronto.ca/"><img src="images/uoft_logo_white.png" width="435" height="177" alt="University of Toronto"></a>
+    <a class="department-link" href="https://web.cs.toronto.edu/">Department of Computer Science</a>
   </div>
-
-  <div id="content" class="clearfix shadow">
-    <h2>Theoretical Computer Science</h2>
-    <p> In the theory of computation area, we use mathematical
+</div>
+<header class="site-header">
+  <div class="site-width header-inner">
+    <a class="site-name" href="index.html">Theory Group</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>Menu</button>
+    <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <details class="people-menu">
+        <summary>People</summary>
+        <ul class="people-submenu">
+          <li><a href="faculty.html">Faculty and Staff</a></li>
+          <li><a href="postdocs_visitors.html">Postdocs and Visitors</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a href="alumni.html">Alumni</a></li>
+        </ul>
+      </details>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="events.html">Events</a>
+      <a href="courses.html">Courses</a>
+      <a href="positions.html">Join us</a>
+    </nav>
+  </div>
+</header>
+<!-- site-header:end -->
+<main id="main-content" class="site-width page-content reading-page">
+<p class="eyebrow">Our research</p>
+<section class="content-section">
+ <h1>
+  Theoretical Computer Science
+ </h1>
+ <p>
+  In the theory of computation area, we use mathematical
       techniques to understand the nature of computation and to
       design and analyze algorithms for important and fundamental
-      problems. 
-    </p>
-    <p> The members of the theory group are all interested, in
+      problems.
+ </p>
+ <p>
+  The members of the theory group are all interested, in
       one way or another, in the limitations of computation:
       What problems are not feasible to solve on a computer? How
       can the infeasibility of a problem be used to rigorously
@@ -63,12 +63,70 @@
       how much space is needed to solve it? How do randomness,
       parallelism, the operations that are allowed, and the need
       for fault tolerance or security affect this?  Here are
-      some of the research areas of current interest: 
-    </p>
-
-    <h3>Algorithmic Game Theory/Mechanism Design</h3>
-    <p>
-      Game theory and mechanism design study processes in which self
+      some of the research areas of current interest:
+ </p>
+ <nav aria-label="Explore research areas" class="page-index">
+  <p>
+   Explore research areas
+  </p>
+  <ul>
+   <li>
+    <a href="#algorithmic-game-theory-mechanism-design">
+     Algorithmic Game Theory/Mechanism Design
+    </a>
+   </li>
+   <li>
+    <a href="#algorithms">
+     Algorithms
+    </a>
+   </li>
+   <li>
+    <a href="#complexity-theory">
+     Complexity Theory
+    </a>
+   </li>
+   <li>
+    <a href="#cryptography">
+     Cryptography
+    </a>
+   </li>
+   <li>
+    <a href="#differential-privacy">
+     Differential Privacy
+    </a>
+   </li>
+   <li>
+    <a href="#discrete-mathematics">
+     Discrete Mathematics
+    </a>
+   </li>
+   <li>
+    <a href="#discrepancy-theory">
+     Discrepancy Theory
+    </a>
+   </li>
+   <li>
+    <a href="#graph-theory">
+     Graph Theory
+    </a>
+   </li>
+   <li>
+    <a href="#quantum-computing">
+     Quantum Computing
+    </a>
+   </li>
+   <li>
+    <a href="#theory-of-distributed-computing">
+     Theory of Distributed Computing
+    </a>
+   </li>
+  </ul>
+ </nav>
+ <h2 id="algorithmic-game-theory-mechanism-design">
+  Algorithmic Game Theory/Mechanism Design
+ </h2>
+ <p>
+  Game theory and mechanism design study processes in which self
       interested agents participate so as to maximize their desired
       utility (e.g. their value for items obtained minus the price
       paid for those items). Such self-interested behaviour may not
@@ -78,14 +136,18 @@
       Economics. More recently, algorithmic considerations have
       shown that many of the beautiful results within this
       established field have to be re-thought due to computational
-      limitations. 
-    </p>
-
-    <h3>Algorithms</h3>
-    <p>
-      Algorithm design and analysis is an essential aspect of
+      limitations.
+ </p>
+ <h2 id="algorithms">
+  Algorithms
+ </h2>
+ <p>
+  Algorithm design and analysis is an essential aspect of
       every area of computer science. Over the past decade, the
-      <i>big data</i> phenomenon has brought into sharp focus the
+  <i>
+   big data
+  </i>
+  phenomenon has brought into sharp focus the
       design of fast algorithms. Our group focuses on the the
       design of efficient (optimal or approximation) algorithms
       for classic TCS problems such as maximum flow, and for novel
@@ -94,32 +156,33 @@
       techniques from a huge number of diverse areas such as
       combinatorics, high-dimensional geometry, continuous
       optimization, approximation theory, etc.
-    </p>
-
-    <h3>Complexity Theory</h3>
-    <p> 
-      Motivated by questions such as the P vs NP problem, the goal 
-	  of complexity theory is to find the limits of efficient 
-	  computation. Which problems are inherently hard to solve, 
+ </p>
+ <h2 id="complexity-theory">
+  Complexity Theory
+ </h2>
+ <p>
+  Motivated by questions such as the P vs NP problem, the goal
+	  of complexity theory is to find the limits of efficient
+	  computation. Which problems are inherently hard to solve,
 	  and what makes them so? How do resource constraints (such as
-	  limited time and memory) inhibit algorithms, and why? And 
-	  which mathematical and algorithmic tools can we use to study 
+	  limited time and memory) inhibit algorithms, and why? And
+	  which mathematical and algorithmic tools can we use to study
 	  these questions?
-	  </p>
-
-	  <p>
-	  Research in this area interacts broadly with other areas in 
-	  theoretical computer science and in mathematics, and integrates 
-	  various focal points of interest. Among these focal points are 
-	  lower bounds for circuits and for Turing machines, proof 
-	  complexity, algebraic and arithmetic computation, 
-	  pseudorandomness and derandomization, error-correcting codes, 
+ </p>
+ <p>
+  Research in this area interacts broadly with other areas in
+	  theoretical computer science and in mathematics, and integrates
+	  various focal points of interest. Among these focal points are
+	  lower bounds for circuits and for Turing machines, proof
+	  complexity, algebraic and arithmetic computation,
+	  pseudorandomness and derandomization, error-correcting codes,
 	  interactive protocols, circuit-analysis algorithms, and more.
-    </p>
-
-    <h3>Cryptography</h3>
-    <p>
-      Traditionally, cryptography concerned the question of how two
+ </p>
+ <h2 id="cryptography">
+  Cryptography
+ </h2>
+ <p>
+  Traditionally, cryptography concerned the question of how two
       people who share a key can securely communicate over an
       insecure channel. This question is related to the existence of
       pseudo-random generators and one-way functions, and involves
@@ -129,11 +192,12 @@
       in which information can remain secret, leading to
       applications such as secure and efficient computing using an
       insecure "cloud".
-    </p>
-
-    <h3>Differential Privacy</h3>
-    <p>
-      Differential privacy is an area of research which
+ </p>
+ <h2 id="differential-privacy">
+  Differential Privacy
+ </h2>
+ <p>
+  Differential privacy is an area of research which
       formalizes private data analysis, analogously to how
       cryptography formalizes secure communication. Machine
       learning and statistics are increasingly applied to data
@@ -142,18 +206,19 @@
       seemingly aggregate statistics of such data sets with
       publicly available data and reveal private information
       about specific individuals. The central goal of
-      differential privacy is to design algorithms that 
+      differential privacy is to design algorithms that
       make such attacks provably impossible while extracting
       useful aggregate information from the data. Our focus is
       on designing efficient differentially private algorithms
       for problems in statistics and machine learning, and to
       understand the inherent limitations of private data
       analysis.
-    </p>
-
-    <h3>Discrete Mathematics</h3>
-    <p> 
-      Discrete Mathematics involves the study of the
+ </p>
+ <h2 id="discrete-mathematics">
+  Discrete Mathematics
+ </h2>
+ <p>
+  Discrete Mathematics involves the study of the
       properties, algorithms and applications of mathematical
       structures built on discrete objects. There is a rich interplay
        between theoretical computer science and
@@ -163,11 +228,12 @@
       of the mathematics. Our group is primarily concerned with
       the mathematical and algorithmic issues pertaining to
       Graph Theory and Discrepancy Theory.
-    </p>
-
-    <h3>Discrepancy Theory</h3>
-    <p>
-      Discrepancy theory studies how well discrete objects can
+ </p>
+ <h2 id="discrepancy-theory">
+  Discrepancy Theory
+ </h2>
+ <p>
+  Discrepancy theory studies how well discrete objects can
       approximate continuous ones: how uniform can a set of n
       points in the plane be? How balanced can a hypergraph
       coloring be? Such questions have many connections to
@@ -175,11 +241,12 @@
       bounds, to designing efficient approximation
       algorithms. Our group is interested in these connections,
       and in algorithmic problems in discrepancy theory.
-    </p>
-
-    <h3>Graph Theory</h3>
-    <p>
-      A graph consists of V (a set of vertices) and E (a set of
+ </p>
+ <h2 id="graph-theory">
+  Graph Theory
+ </h2>
+ <p>
+  A graph consists of V (a set of vertices) and E (a set of
       edges, either ordered or unordered, joining pairs of
       vertices in V). It is clear that any binary relation may be
       modeled as a graph; thus, applications of graphs pervade
@@ -187,28 +254,28 @@
       computational biology, random structures and the structure
       of electrical circuits, as well as more traditional graph
       theory such as graph colouring, perfect graphs,
-      hamiltonicity and generalizations of graphs. 
-    </p>
-
-    <!-- <h3>Combinatorial Designs</h3> -->
-    <!-- <p> A combinatorial design is a collection of sets satisfying -->
-    <!--   some given regularity properties of its subsets. The -->
-    <!--   structures can be as loose as regular graphs or as tight as -->
-    <!--   finite projective geometries. The fundamental problems of -->
-    <!--   design theory are the existence, enumeration and generation -->
-    <!--   of designs with given parameters. Applications of designs -->
-    <!--   are found in statistics (the design of experiments), -->
-    <!--   error-correcting codes, computer architecture and -->
-    <!--   cryptography. Our group's interests include the development -->
-    <!--   and analysis of deterministic and randomized combinatorial -->
-    <!--   search techniques, algebraic methods for the construction of -->
-    <!--   solutions to combinatorial optimization problems, sub-object -->
-    <!--   and/or automorphism-free systems, systems containing -->
-    <!--   specified small partial systems and design invariants. </p> -->
-
-    <h3>Quantum Computing</h3>
-    <p>
-      Quantum computing presents the tantalizing
+      hamiltonicity and generalizations of graphs.
+ </p>
+ <!-- <h3>Combinatorial Designs</h3> -->
+ <!-- <p> A combinatorial design is a collection of sets satisfying -->
+ <!--   some given regularity properties of its subsets. The -->
+ <!--   structures can be as loose as regular graphs or as tight as -->
+ <!--   finite projective geometries. The fundamental problems of -->
+ <!--   design theory are the existence, enumeration and generation -->
+ <!--   of designs with given parameters. Applications of designs -->
+ <!--   are found in statistics (the design of experiments), -->
+ <!--   error-correcting codes, computer architecture and -->
+ <!--   cryptography. Our group's interests include the development -->
+ <!--   and analysis of deterministic and randomized combinatorial -->
+ <!--   search techniques, algebraic methods for the construction of -->
+ <!--   solutions to combinatorial optimization problems, sub-object -->
+ <!--   and/or automorphism-free systems, systems containing -->
+ <!--   specified small partial systems and design invariants. </p> -->
+ <h2 id="quantum-computing">
+  Quantum Computing
+ </h2>
+ <p>
+  Quantum computing presents the tantalizing
       possibility that we will be able to construct
       machines capable of solving certain problems
       exponentially faster than any classical
@@ -222,39 +289,35 @@
       randomness? What is the complexity of quantum state
       transformations? Which computational problems admit
       a quantum speedup?
-    </p>
-
-    <h3>Theory of Distributed Computing</h3>
-    <p>
-      Our research in the theory of distributed computing
+ </p>
+ <h2 id="theory-of-distributed-computing">
+  Theory of Distributed Computing
+ </h2>
+ <p>
+  Our research in the theory of distributed computing
       studies both shared memory and message passing systems. We
       are particularly interested in issues of fault tolerance,
       synchronization, and the limits on the computational power
       of shared memory primitives.
-    </p>
+ </p>
+</section>
+</main>
+<!-- site-footer:start -->
+<footer class="site-footer">
+  <div class="site-width footer-main">
+    <div><p class="footer-title">Theory Group</p><p>Department of Computer Science<br>University of Toronto</p></div>
+    <nav class="footer-links" aria-label="Resources">
+      <a href="positions.html">Graduate study &amp; postdocs</a>
+      <a href="courses.html">Graduate courses</a>
+      <a href="https://wwwlogin.cs.toronto.edu/theorylists/">Group mailing lists (department access)</a>
+      <a href="https://github.com/utoronto-theory/webpage">Contribute to this website</a>
+    </nav>
   </div>
-
-  <footer id="footer" class="shadow">
-    <p>
-      &copy; Template design by <a href="https://andreasviklund.com/"
-      target="_blank">andreasviklund.com</a> <br>
-      &copy; 2025 - 2026 Department of Computer Science, University of Toronto
-    </p>
-  </footer>
-</div>
-
-<script type="text/javascript">
-  $(window).load(function() {
-    $('#nav li').hover(
-      function () {
-        $('ul', this).stop().slideDown(0);
-      },
-      function () {
-        $('ul', this).stop().slideUp(0);
-      }
-    );
-    $('#slider').nivoSlider();
-  });
-</script>
+  <div class="site-width footer-note">
+    <span>&copy; Department of Computer Science, University of Toronto</span>
+    <span>Original template by <a href="https://andreasviklund.com/">Andreas Viklund</a></span>
+  </div>
+</footer>
+<!-- site-footer:end -->
 </body>
 </html>

@@ -1,241 +1,414 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Your description goes here" />
-  <meta name="keywords" content="your,keywords,goes,here" />
-  <meta name="author" content="Your Name" />
-  <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
-  <link rel="stylesheet" type="text/css" media="all" href="inland.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="theory.css" />
-  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
-  <title>Theory Group at UofT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Graduate course offerings and past courses in theoretical computer science at the University of Toronto.">
+  <title>Graduate Courses | Theory Group, University of Toronto</title>
+  <link rel="stylesheet" href="site.css">
+  <script src="js/site.js" defer></script>
 </head>
-
 <body>
-<div id="wrapper960" class="clearfix">
-
-  <div id="header" class="clearfix shadow">
-    <div id="sitetitle" class="clearfix">
-      <div style="float: left;">
-        <h1><a href="index.html">Theory Group </a></h1>
-      </div>
-      <div style="position: relative; bottom: 10px; width: 380px;">
-        <img src="images/uoft_logo_white.png" alt="UofT" 
-          style="width: 30%; height: 30%; padding-left: 15px;">
-      </div>
-    </div>
-
-    <div id="nav" class="clearfix">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li>
-            <a href="#">People</a>
-            <ul class="fallback">
-                <li><a href="faculty.html">Faculty and Staff</a></li>
-                <li><a href="postdocs_visitors.html">Postdocs and Visitors</a></li>
-                <li><a href="students.html">Students</a></li>
-                <li><a href="alumni.html">Alumni</a></li>
-            </ul>
-        </li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a class="current" href="courses.html">Courses</a></li>
-        <li><a href="positions.html">Positions</a></li>
-      </ul>
-    </div>
+<!-- site-header:start -->
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="university-bar">
+  <div class="site-width university-bar-inner">
+    <a class="university-logo" href="https://www.utoronto.ca/"><img src="images/uoft_logo_white.png" width="435" height="177" alt="University of Toronto"></a>
+    <a class="department-link" href="https://web.cs.toronto.edu/">Department of Computer Science</a>
   </div>
-
-  <div id="content" class="clearfix shadow">
-    <h2>Graduate Course offerings</h2>
-
-    <p>For the current graduate courses offered by the Department of Computer Science, please check it 
-      <a href="https://web.cs.toronto.edu/graduate/timetable" target="_blank">here</a>.
-    </p>
-
-    <div>
-      <h3>Summer 2026</h3>
-      <ul style="padding-left:2em">
-        <li>CSC 2555: Mathematical Foundations of Algorithmic Fairness</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Winter 2026</h3>
-      <ul style="padding-left:2em">
-        <li>CSC 2412: Algorithms for Private Data Analysis</li>
-        <li>CSC 2429: Topics in the Theory of Computation: Algebraic Complexity</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Fall 2025</h3>
-      <ul style="padding-left:2em">
-        <li>CSC 2221: Introduction to the Theory of Distributed Computing</li>
-        <li>CSC 2332: Introduction to Quantum Algorithms</li>
-        <li><a href="https://sites.google.com/site/roeitell/teaching" target="_blank">
-          CSC 2414: Advanced Topics in Complexity Theory: Algorithmic Approaches to Lower Bounds</a></li>
-        <li><a href="https://www.cs.toronto.edu/%7Eakshayaram/CSC2419_Fall25.html" target="_blank">
-          CSC 2419: Topics in Cryptography: Lattice-based Cryptography</a></li>
-        <li><a href="https://www.cs.toronto.edu/~bor/2421f25/" target="_blank">
-          CSC 2421: Topics in Algorithms: Online and Other Myopic Algorithms</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Winter 2025</h3>
-      <ul style="padding-left:2em">
-        <li>CSC 2405: Automata Theory</li>
-        <li>CSC 2414: Algebraic Gems in Math & CS</li>
-        <li>CSC 2420: Algorithm Design, Analysis and Theory</li>
-        <li>CSC 2427: The Probabilistic Method</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Fall 2024</h3>
-      <ul style="padding-left:2em">
-        <li>CSC 2221: Introduction to the Theory of Distributed Computing</li>
-        <li>CSC 2332: Introduction to Quantum Computing</li>
-        <li>CSC 2401: Introduction to Computational Complexity</li>
-        <li>CSC 2429: Pseudorandomness & Expanders</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Winter 2024</h3>
-      <ul style="padding-left:2em">
-        <li>CSC 2415: Advanced Topics in the Theory of Distributed Computing</li>
-        <li><a href="https://sites.google.com/site/roeitell/teaching" target="_blank">
-          CSC 2429: Derandomization and its connections in complexity theory, interactive proof systems, and cryptography</a>
-        </li>
-        <li>CSC 2401: Introduction to Computational Complexity</li>
-        <li><a href="https://www.cs.toronto.edu/~nisarg/teaching/2421s24/" target="_blank">
-          CSC 2421: Mathematical Foundations of Algorithmic Fairness</a>
-        </li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Fall 2023</h3>
-      <ul style="padding-left:2em">
-        <li><a href="https://www.cs.toronto.edu/~bor/2420f23/" target="_blank">
-          CSC 2420: Algorithm Design, Analysis and Theory</a></li>
-        <li>CSC 2412: Algorithms for Private Data Analysis</li>
-        <li><a href="https://www.math.toronto.edu/swastik/courses/finitefields-F23/" target="_blank">
-          CSC 2429: Finite Fields</a>
-        </li>
-        <li><a href="https://www.cs.toronto.edu/~akshayaram/CSC2426_Fall23.html" target="_blank">
-          CSC 2426: Fundamentals of Cryptography</a>
-        </li>
-        <li>CSC 2221: Introduction to Distributed Computing</li>
-        <li>CSC 2429: Introduction to Quantum Information Theory</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Winter 2023</h3>
-      <ul style="padding-left:2em">
-        <li>CSC 2404: Computability and Logic</li>
-        <li>CSC 2412: Algorithms for Private Data Analysis</li>
-        <li>CSC 2415: Impossibility Results for Distributed Computing</li>
-        <li>CSC 2429: Topics in the Theory of Computation: Algebraic Complexity Theory</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Fall 2022</h3>
-      <ul style="padding-left:2em">
-        <li>CSC 2221: Introduction to Theory of Distributed Computing</li>
-        <li>CSC 2240: Graphs, Matrices and Coninuous Optimization</li>
-        <li>CSC 2332: Introduction to Quantum Algorithms</li>
-        <li><a href="https://www.cs.toronto.edu/~bor/2420f22/" target="_blank">
-          CSC 2420: Algorithm Design, Analysis and Theory</a>
-        </li>
-        <li>CSC 2429: Topics of Theory of Computation: Error Correcting Codes</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Winter 2022</h3>
-      <ul style="padding-left:2em">
-        <li><a href="https://www.cs.toronto.edu/~bor/2421s22/" target="_blank">
-          CSC 2421: Topics in Algorithms: Online and other Myopic Algorithms</a>
-        </li>
-        <li><a href="https://www.cs.toronto.edu/~nisarg/teaching/2556s22/" target="_blank">
-          CSC 2556: Algorithms for Collective Descision Making</a>
-        </li>
-      </ul>
-    </div>
-
-    <br/>
-    <h3>Past Course Offerings</h3>
-    <ul style="padding-left:2em">
-      <li>CSC 2221: Introduction to Theory of Distributed Computing</li>
-      <li><a href="https://www.cs.toronto.edu/~anikolov/CSC2412F20/CSC2412.html" target="_blank">
-        CSC 2412: Algorithms for Private Data Analysis</a>
-      </li>
-      <li><a href="https://www.cs.toronto.edu/~anikolov/csc2414.html" target="_blank">
-        CSC 2414: Discrepancy Theory in Computer Science</a>
-      </li>
-      <li><a href="https://www.cs.toronto.edu/~faith/2415.html" target="_blank">
-        CSC 2415: Impossibility Results for Distributed Computing</a>
-      </li>
-      <li><a href="https://www.cs.toronto.edu/~bor/2421f19/" target="_blank">
-        CSC 2421: Topics in Algorithms: Online and other Myopic Algorithms</a>
-      </li>
-      <li><a href="https://sachdevasushant.github.io/courses/17f-csc2421/index.html" target="_blank">
-        CSC 2421: Fast Algorithms via Continuous Methods</a>
-      </li>
-      <li><a href="https://sachdevasushant.github.io/courses/18f-csc2421/index.html" target="_blank">
-        CSC 2421: Graphs, Matrices, and Optimization</a>
-      </li>
-      <li><a href="https://www.cs.toronto.edu/~rackoff/2426f18/" target="_blank">
-        CSC 2426: Fundamentals of Cryptography</a>
-      </li>
-      <li><a href="https://www.math.toronto.edu/ssaraf/CSC2429F21/" target="_blank">
-        CSC 2429: Algebraic Gems in Theoretical Computer Science and Discrete Mathematics</a>
-      </li>
-      <li><a href="https://www.math.toronto.edu/rossman/CSC2429.html" target="_blank">
-        CSC 2429: Circuit Complexity</a>
-      </li>
-      <li><a href="https://www.cs.toronto.edu/~toni/Courses/Proofs-SOS-2018/CS2429.html" target="_blank">
-        CSC 2429: Proof Complexity, Mathematical Programming, and Algorithms</a>
-      </li>
-      <li><a href="https://www.cs.toronto.edu/~toni/Courses/CommComplexity2014/CS2429.html" target="_blank">
-        CSC 2429: Communication Complexity, Applications and New Directions</a>
-      </li>
-      <li><a href="https://henryyuen.net/classes/fall2019/" target="_blank">
-        CSC 2451: Quantum Computing, Foundations to Frontier</a>
-        </li>
-      <li><a href="https://www.cs.toronto.edu/~nisarg/teaching/2556s21/" target="_blank">
-        CSC 2556: Algorithms for Collective Decision Making</a>
-      </li>
-    </ul>
-  </div>
-
-  <footer id="footer" class="shadow">
-    <p>
-      &copy; Template design by <a href="https://andreasviklund.com/"
-      target="_blank">andreasviklund.com</a> <br>
-      &copy; 2025 - 2026 Department of Computer Science, University of Toronto
-    </p>
-  </footer>
 </div>
-
-<script type="text/javascript">
-  $(window).load(function() {
-    $('#nav li').hover(
-      function () {
-        $('ul', this).stop().slideDown(0);
-      },
-      function () {
-        $('ul', this).stop().slideUp(0);
-      }
-    );
-    $('#slider').nivoSlider();
-  });
-</script>
+<header class="site-header">
+  <div class="site-width header-inner">
+    <a class="site-name" href="index.html">Theory Group</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>Menu</button>
+    <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <details class="people-menu">
+        <summary>People</summary>
+        <ul class="people-submenu">
+          <li><a href="faculty.html">Faculty and Staff</a></li>
+          <li><a href="postdocs_visitors.html">Postdocs and Visitors</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a href="alumni.html">Alumni</a></li>
+        </ul>
+      </details>
+      <a href="research.html">Research</a>
+      <a href="events.html">Events</a>
+      <a href="courses.html" aria-current="page">Courses</a>
+      <a href="positions.html">Join us</a>
+    </nav>
+  </div>
+</header>
+<!-- site-header:end -->
+<main id="main-content" class="site-width page-content reading-page">
+<p class="eyebrow">Teaching</p>
+<section class="content-section">
+ <h1>
+  Graduate Course offerings
+ </h1>
+ <p>
+  For the current graduate courses offered by the Department of Computer Science, please check it
+  <a href="https://web.cs.toronto.edu/graduate/timetable" rel="noopener" target="_blank">
+   here
+  </a>.
+ </p>
+ <nav aria-label="Browse by term" class="page-index">
+  <p>
+   Browse by term
+  </p>
+  <ul>
+   <li>
+    <a href="#summer-2026">
+     Summer 2026
+    </a>
+   </li>
+   <li>
+    <a href="#winter-2026">
+     Winter 2026
+    </a>
+   </li>
+   <li>
+    <a href="#fall-2025">
+     Fall 2025
+    </a>
+   </li>
+   <li>
+    <a href="#winter-2025">
+     Winter 2025
+    </a>
+   </li>
+   <li>
+    <a href="#fall-2024">
+     Fall 2024
+    </a>
+   </li>
+   <li>
+    <a href="#winter-2024">
+     Winter 2024
+    </a>
+   </li>
+   <li>
+    <a href="#fall-2023">
+     Fall 2023
+    </a>
+   </li>
+   <li>
+    <a href="#winter-2023">
+     Winter 2023
+    </a>
+   </li>
+   <li>
+    <a href="#fall-2022">
+     Fall 2022
+    </a>
+   </li>
+   <li>
+    <a href="#winter-2022">
+     Winter 2022
+    </a>
+   </li>
+   <li>
+    <a href="#past-course-offerings">
+     Past Course Offerings
+    </a>
+   </li>
+  </ul>
+ </nav>
+ <div class="course-term">
+  <h2 id="summer-2026">
+   Summer 2026
+  </h2>
+  <ul>
+   <li>
+    CSC 2555: Mathematical Foundations of Algorithmic Fairness
+   </li>
+  </ul>
+ </div>
+ <div class="course-term">
+  <h2 id="winter-2026">
+   Winter 2026
+  </h2>
+  <ul>
+   <li>
+    CSC 2412: Algorithms for Private Data Analysis
+   </li>
+   <li>
+    CSC 2429: Topics in the Theory of Computation: Algebraic Complexity
+   </li>
+  </ul>
+ </div>
+ <div class="course-term">
+  <h2 id="fall-2025">
+   Fall 2025
+  </h2>
+  <ul>
+   <li>
+    CSC 2221: Introduction to the Theory of Distributed Computing
+   </li>
+   <li>
+    CSC 2332: Introduction to Quantum Algorithms
+   </li>
+   <li>
+    <a href="https://sites.google.com/site/roeitell/teaching" rel="noopener" target="_blank">
+     CSC 2414: Advanced Topics in Complexity Theory: Algorithmic Approaches to Lower Bounds
+    </a>
+   </li>
+   <li>
+    <a href="https://www.cs.toronto.edu/%7Eakshayaram/CSC2419_Fall25.html" rel="noopener" target="_blank">
+     CSC 2419: Topics in Cryptography: Lattice-based Cryptography
+    </a>
+   </li>
+   <li>
+    <a href="https://www.cs.toronto.edu/~bor/2421f25/" rel="noopener" target="_blank">
+     CSC 2421: Topics in Algorithms: Online and Other Myopic Algorithms
+    </a>
+   </li>
+  </ul>
+ </div>
+ <div class="course-term">
+  <h2 id="winter-2025">
+   Winter 2025
+  </h2>
+  <ul>
+   <li>
+    CSC 2405: Automata Theory
+   </li>
+   <li>
+    CSC 2414: Algebraic Gems in Math &amp; CS
+   </li>
+   <li>
+    CSC 2420: Algorithm Design, Analysis and Theory
+   </li>
+   <li>
+    CSC 2427: The Probabilistic Method
+   </li>
+  </ul>
+ </div>
+ <div class="course-term">
+  <h2 id="fall-2024">
+   Fall 2024
+  </h2>
+  <ul>
+   <li>
+    CSC 2221: Introduction to the Theory of Distributed Computing
+   </li>
+   <li>
+    CSC 2332: Introduction to Quantum Computing
+   </li>
+   <li>
+    CSC 2401: Introduction to Computational Complexity
+   </li>
+   <li>
+    CSC 2429: Pseudorandomness &amp; Expanders
+   </li>
+  </ul>
+ </div>
+ <div class="course-term">
+  <h2 id="winter-2024">
+   Winter 2024
+  </h2>
+  <ul>
+   <li>
+    CSC 2415: Advanced Topics in the Theory of Distributed Computing
+   </li>
+   <li>
+    <a href="https://sites.google.com/site/roeitell/teaching" rel="noopener" target="_blank">
+     CSC 2429: Derandomization and its connections in complexity theory, interactive proof systems, and cryptography
+    </a>
+   </li>
+   <li>
+    CSC 2401: Introduction to Computational Complexity
+   </li>
+   <li>
+    <a href="https://www.cs.toronto.edu/~nisarg/teaching/2421s24/" rel="noopener" target="_blank">
+     CSC 2421: Mathematical Foundations of Algorithmic Fairness
+    </a>
+   </li>
+  </ul>
+ </div>
+ <div class="course-term">
+  <h2 id="fall-2023">
+   Fall 2023
+  </h2>
+  <ul>
+   <li>
+    <a href="https://www.cs.toronto.edu/~bor/2420f23/" rel="noopener" target="_blank">
+     CSC 2420: Algorithm Design, Analysis and Theory
+    </a>
+   </li>
+   <li>
+    CSC 2412: Algorithms for Private Data Analysis
+   </li>
+   <li>
+    <a href="https://www.math.toronto.edu/swastik/courses/finitefields-F23/" rel="noopener" target="_blank">
+     CSC 2429: Finite Fields
+    </a>
+   </li>
+   <li>
+    <a href="https://www.cs.toronto.edu/~akshayaram/CSC2426_Fall23.html" rel="noopener" target="_blank">
+     CSC 2426: Fundamentals of Cryptography
+    </a>
+   </li>
+   <li>
+    CSC 2221: Introduction to Distributed Computing
+   </li>
+   <li>
+    CSC 2429: Introduction to Quantum Information Theory
+   </li>
+  </ul>
+ </div>
+ <div class="course-term">
+  <h2 id="winter-2023">
+   Winter 2023
+  </h2>
+  <ul>
+   <li>
+    CSC 2404: Computability and Logic
+   </li>
+   <li>
+    CSC 2412: Algorithms for Private Data Analysis
+   </li>
+   <li>
+    CSC 2415: Impossibility Results for Distributed Computing
+   </li>
+   <li>
+    CSC 2429: Topics in the Theory of Computation: Algebraic Complexity Theory
+   </li>
+  </ul>
+ </div>
+ <div class="course-term">
+  <h2 id="fall-2022">
+   Fall 2022
+  </h2>
+  <ul>
+   <li>
+    CSC 2221: Introduction to Theory of Distributed Computing
+   </li>
+   <li>
+    CSC 2240: Graphs, Matrices and Coninuous Optimization
+   </li>
+   <li>
+    CSC 2332: Introduction to Quantum Algorithms
+   </li>
+   <li>
+    <a href="https://www.cs.toronto.edu/~bor/2420f22/" rel="noopener" target="_blank">
+     CSC 2420: Algorithm Design, Analysis and Theory
+    </a>
+   </li>
+   <li>
+    CSC 2429: Topics of Theory of Computation: Error Correcting Codes
+   </li>
+  </ul>
+ </div>
+ <div class="course-term">
+  <h2 id="winter-2022">
+   Winter 2022
+  </h2>
+  <ul>
+   <li>
+    <a href="https://www.cs.toronto.edu/~bor/2421s22/" rel="noopener" target="_blank">
+     CSC 2421: Topics in Algorithms: Online and other Myopic Algorithms
+    </a>
+   </li>
+   <li>
+    <a href="https://www.cs.toronto.edu/~nisarg/teaching/2556s22/" rel="noopener" target="_blank">
+     CSC 2556: Algorithms for Collective Descision Making
+    </a>
+   </li>
+  </ul>
+ </div>
+ <br/>
+ <h2 id="past-course-offerings">
+  Past Course Offerings
+ </h2>
+ <ul>
+  <li>
+   CSC 2221: Introduction to Theory of Distributed Computing
+  </li>
+  <li>
+   <a href="https://www.cs.toronto.edu/~anikolov/CSC2412F20/CSC2412.html" rel="noopener" target="_blank">
+    CSC 2412: Algorithms for Private Data Analysis
+   </a>
+  </li>
+  <li>
+   <a href="https://www.cs.toronto.edu/~anikolov/csc2414.html" rel="noopener" target="_blank">
+    CSC 2414: Discrepancy Theory in Computer Science
+   </a>
+  </li>
+  <li>
+   <a href="https://www.cs.toronto.edu/~faith/2415.html" rel="noopener" target="_blank">
+    CSC 2415: Impossibility Results for Distributed Computing
+   </a>
+  </li>
+  <li>
+   <a href="https://www.cs.toronto.edu/~bor/2421f19/" rel="noopener" target="_blank">
+    CSC 2421: Topics in Algorithms: Online and other Myopic Algorithms
+   </a>
+  </li>
+  <li>
+   <a href="https://sachdevasushant.github.io/courses/17f-csc2421/index.html" rel="noopener" target="_blank">
+    CSC 2421: Fast Algorithms via Continuous Methods
+   </a>
+  </li>
+  <li>
+   <a href="https://sachdevasushant.github.io/courses/18f-csc2421/index.html" rel="noopener" target="_blank">
+    CSC 2421: Graphs, Matrices, and Optimization
+   </a>
+  </li>
+  <li>
+   <a href="https://www.cs.toronto.edu/~rackoff/2426f18/" rel="noopener" target="_blank">
+    CSC 2426: Fundamentals of Cryptography
+   </a>
+  </li>
+  <li>
+   <a href="https://www.math.toronto.edu/ssaraf/CSC2429F21/" rel="noopener" target="_blank">
+    CSC 2429: Algebraic Gems in Theoretical Computer Science and Discrete Mathematics
+   </a>
+  </li>
+  <li>
+   <a href="https://www.math.toronto.edu/rossman/CSC2429.html" rel="noopener" target="_blank">
+    CSC 2429: Circuit Complexity
+   </a>
+  </li>
+  <li>
+   <a href="https://www.cs.toronto.edu/~toni/Courses/Proofs-SOS-2018/CS2429.html" rel="noopener" target="_blank">
+    CSC 2429: Proof Complexity, Mathematical Programming, and Algorithms
+   </a>
+  </li>
+  <li>
+   <a href="https://www.cs.toronto.edu/~toni/Courses/CommComplexity2014/CS2429.html" rel="noopener" target="_blank">
+    CSC 2429: Communication Complexity, Applications and New Directions
+   </a>
+  </li>
+  <li>
+   <a href="https://henryyuen.net/classes/fall2019/" rel="noopener" target="_blank">
+    CSC 2451: Quantum Computing, Foundations to Frontier
+   </a>
+  </li>
+  <li>
+   <a href="https://www.cs.toronto.edu/~nisarg/teaching/2556s21/" rel="noopener" target="_blank">
+    CSC 2556: Algorithms for Collective Decision Making
+   </a>
+  </li>
+ </ul>
+</section>
+</main>
+<!-- site-footer:start -->
+<footer class="site-footer">
+  <div class="site-width footer-main">
+    <div><p class="footer-title">Theory Group</p><p>Department of Computer Science<br>University of Toronto</p></div>
+    <nav class="footer-links" aria-label="Resources">
+      <a href="positions.html">Graduate study &amp; postdocs</a>
+      <a href="courses.html">Graduate courses</a>
+      <a href="https://wwwlogin.cs.toronto.edu/theorylists/">Group mailing lists (department access)</a>
+      <a href="https://github.com/utoronto-theory/webpage">Contribute to this website</a>
+    </nav>
+  </div>
+  <div class="site-width footer-note">
+    <span>&copy; Department of Computer Science, University of Toronto</span>
+    <span>Original template by <a href="https://andreasviklund.com/">Andreas Viklund</a></span>
+  </div>
+</footer>
+<!-- site-footer:end -->
 </body>
 </html>
