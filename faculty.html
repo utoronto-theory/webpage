@@ -1,419 +1,565 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Your description goes here" />
-  <meta name="keywords" content="your,keywords,goes,here" />
-  <meta name="author" content="Your Name" />
-  <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
-  <link rel="stylesheet" type="text/css" media="all" href="inland.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="theory.css" />
-  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
-  <title>Theory Group at UofT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Faculty, emeriti, and administrative staff of the University of Toronto Theory Group.">
+  <title>Faculty and Staff | Theory Group, University of Toronto</title>
+  <link rel="stylesheet" href="site.css">
+  <script src="js/site.js" defer></script>
 </head>
-
 <body>
-  <div id="wrapper960" class="clearfix">
-
-    <div id="header" class="clearfix shadow">
-    <div id="sitetitle" class="clearfix">
-      <div style="float: left;">
-        <h1><a href="index.html">Theory Group </a></h1>
-      </div>
-      <div style="position: relative; bottom: 10px; width: 380px;">
-        <img src="images/uoft_logo_white.png" alt="UofT" 
-          style="width: 30%; height: 30%; padding-left: 15px;">
-      </div>
-    </div>
-
-      <div id="nav" class="clearfix">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a class="current" href="#">People</a>
-              <ul class="fallback">
-                <li><a href="faculty.html">Faculty and Staff</a></li>
-                <li><a href="postdocs_visitors.html">Postdocs and Visitors</a></li>
-                <li><a href="students.html">Students</a></li>
-                <li><a href="alumni.html">Alumni</a></li>
-              </ul>
-          </li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="positions.html">Positions</a></li>
+<!-- site-header:start -->
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="university-bar">
+  <div class="site-width university-bar-inner">
+    <a class="university-logo" href="https://www.utoronto.ca/"><img src="images/uoft_logo_white.png" width="435" height="177" alt="University of Toronto"></a>
+    <a class="department-link" href="https://web.cs.toronto.edu/">Department of Computer Science</a>
+  </div>
+</div>
+<header class="site-header">
+  <div class="site-width header-inner">
+    <a class="site-name" href="index.html">Theory Group</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>Menu</button>
+    <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <details class="people-menu is-current">
+        <summary>People</summary>
+        <ul class="people-submenu">
+          <li><a href="faculty.html" aria-current="page">Faculty and Staff</a></li>
+          <li><a href="postdocs_visitors.html">Postdocs and Visitors</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a href="alumni.html">Alumni</a></li>
         </ul>
-      </div>
-    </div>
-
-    <div id="extended" class="clearfix shadow">
-
-      <a name="faculty"></a>
-      <h2>Faculty</h2>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Ebor/" target="_blank">
-              <img src="people/borodin2.jpg" height="130" width="130"/>
-            </a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Ebor/" target="_blank">
-              <strong>Allan Borodin</strong></a> <br> Complexity Theory, <br>
-              Online Algorithms, <br/>Game Theory
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Efaith" target="_blank">
-              <img src="people/faith.jpg" class="fac_img" height="130" width="130"/>
-            </a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Efaith" target="_blank">
-              <strong>Faith Ellen</strong></a> <br> Distributed Complexity, <br>
-              Data Structures, <br> Lower Bounds</p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.columbia.edu/~ug2150/" target="_blank">
-              <img src="people/uma.jpeg" height="130" width="130" /></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.columbia.edu/~ug2150/" target="_blank">
-              <strong>Uma Girish</strong></a> <br> Quantum Computing, <br>
-              Complexity Theory <br> (Incoming)
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Evassos/" target="_blank">
-              <img src="people/vassos.jpg" height="130" width="130"/>
-            </a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Evassos/" target="_blank">
-              <strong>Vassos Hadzilacos</strong></a> <br> Distributed Computing
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.math.toronto.edu/swastik/" target="_blank">
-              <img src="people/swastik.jpg" height="130" width="130" /></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.math.toronto.edu/swastik/" target="_blank">
-              <strong>Swastik Kopparty</strong></a> <br> Complexity Theory, <br>
-              Error-Correcting Codes, Pseudorandomness
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Emeel/" target="_blank">
-              <img src="people/meel.jpg" height="130" width="130" /></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Emeel/" target="_blank">
-              <strong>Kuldeep Meel</strong></a> <br> Automated Reasoning, <br>
-              Formal Methods,<br/> Databases (On leave)
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio3">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Emolloy/" target="_blank">
-              <img src="people/molloy.jpg" height="130" width="130" /></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Emolloy/" target="_blank">
-              <strong>Michael Molloy</strong></a> <br> Graph Theory, <br>
-              Combinatorics
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio1">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Eanikolov" target="_blank">
-              <img src="people/nikolov.jpg" height="130" class="fac_img" width="130"/>
-            </a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Eanikolov" target="_blank">
-              <strong>Aleksandar Nikolov</strong> </a> <br> Algorithms, <br>
-              Discrepancy Theory, <br> Privacy</p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Etoni/" target="_blank">
-              <img src="people/pitassi.jpg"  height="130" width="130" /></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Etoni/" target="_blank">
-              <strong>Toniann Pitassi</strong></a> <br> Complexity Theory, <br>
-              Proof Complexity<br> (On leave)
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Esachdeva/" target="_blank">
-              <img src="people/sachdeva.jpg" height="130" width="130" /></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Esachdeva/" target="_blank">
-              <strong>Sushant Sachdeva</strong></a> <br> Algorithms, <br>
-              Optimization, <br> Learning
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.math.toronto.edu/ssaraf/" target="_blank">
-              <img src="people/shubhangi.jpg" height="130" width="130" /></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.math.toronto.edu/ssaraf/" target="_blank">
-              <strong>Shubhangi Saraf</strong></a> <br> Complexity Theory, <br>
-              Algebraic Computation
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio3">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Enisarg/" target="_blank">
-            <img src="people/shah.jpg" height="130" width="130"/></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Enisarg/" target="_blank">
-              <strong>Nisarg Shah</strong></a> <br> Fairness, Social Choice, <br>
-              Game Theory, <br> Mechanism Design
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio3">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Eakshayaram/" target="_blank">
-            <img src="people/Akshay.jpg" height="130" width="130"/></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Eakshayaram/" target="_blank">
-              <strong>Akshayaram Srinivasan</strong></a> <br> Cryptography <br>
-            </p>
-          </div>
-        </div>
-      </div>
-	  
-	  <div id="trio3">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://sites.google.com/site/roeitell/" target="_blank">
-            <img src="people/roei.jpg" height="130" width="130"/></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://sites.google.com/site/roeitell/" target="_blank">
-              <strong>Roei Tell</strong></a> <br> Complexity Theory,<br>
-              Pseudorandomness, <br> and Derandomization
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.cornell.edu/annual_report/toueg.htm" target="_blank">
-              <img src="people/toueg.gif" height="130" class="fac_img" width="130"/></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.cornell.edu/annual_report/toueg.htm" target="_blank">
-              <strong>Sam Toueg</strong></a> <br>Distributed Computing
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio3">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.physics.utoronto.ca/members/wiebe-nathan/" target="_blank">
-              <img src="people/nathan.jpg" height="130" width="130" /></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.physics.utoronto.ca/members/wiebe-nathan/" target="_blank">
-              <strong>Nathan Wiebe</strong></a><br> Quantum Algorithms, <br>
-              Quantum Machine Learning
-            </p>
-          </div>
-        </div>
-      </div>
- 
-      <!-- <div id="trio3"> -->
-      <!--  <div class="inner"> -->
-      <!--    <div class="fac_img"> -->
-      <!--       <a href="https://www.henryyuen.net" target="_blank"><img src="people/henry.png" -->
-      <!--                height="130" width="130" /></a> -->
-      <!--    </div> -->
-      <!--    <div class="fac_info"> -->
-      <!--       <p> <a href="https://www.henryyuen.net" target="_blank"><strong>Henry Yuen</strong> -->
-      <!--        </a> <br> Quantum Computing, <br> Quantum -->
-      <!--        Cryptography, <br> Complexity Theory<br/> -->
-      <!--        (On leave)</p> -->
-      <!--    </div> -->
-      <!--   </div> -->
-      <!-- </div> -->
-
-    </div>
-
-
-    <!-- <div id="extended" class="clearfix shadow"> -->
-    <!--   <a name="emeriti"></a> -->
-    <!--   <h2>Affiliated Faculty</h2> -->
-      
-
-    <div id="extended" class="clearfix shadow">
-      <a name="emeriti"></a>
-      <h2>Emeriti Faculty</h2>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Esacook/" target="_blank">
-              <img src="people/cook.jpg" height="130" width="130"/></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Esacook/" target="_blank">
-              <strong>Stephen Cook</strong></a> <br> Complexity Theory, <br>
-              Logic
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio3">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="Corneil-bio.htm" target="_blank">
-              <img src="people/corneil.jpg" height="130" width="130"/></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="Corneil-bio.htm" target="_blank">
-              <strong>Derek Corneil</strong></a> <br>Graph Theory
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio3">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://www.cs.toronto.edu/%7Erackoff/">
-              <img src="people/rackoff.jpg" height="130" width="130" /></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://www.cs.toronto.edu/%7Erackoff/" target="_blank">
-              <strong>Charles Rackoff</strong></a> <br> Cryptography,
-              <br/> Complexity Theory
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="trio2">
-        <div class="inner">
-          <div class="fac_img">
-            <a href="https://utoronto.academia.edu/AlasdairUrquhart" target="_blank">
-              <img src="people/alasdair.jpg" height="130" width="130"/></a>
-          </div>
-          <div class="fac_info">
-            <p><a href="https://utoronto.academia.edu/AlasdairUrquhart" target="_blank">
-              <strong>Alasdair Urquhart</strong></a> <br> Complexity of Proofs,
-              <br> Logic, <br> History of Logic
-            </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <br>
-    <div id="extended" class="clearfix shadow">
-      <h2>Administrative Staff</h2>
-      <div class="inner" style="padding-left:1em;">
-        <ul>
-          <li>
-            <a href="https://web.cs.toronto.edu/people/staff-directory" target="_blank">Jankie Ramsook</a> (Faculty Services Support Assistant)
-          </li>
-          <li>
-            <a href="https://web.cs.toronto.edu/people/staff-directory" target="_blank">Malcolm Safo</a> (Computer Science Support Specialist)
-          </li>
-        </ul>
-      </div>
-    </div>
-
-  <footer id="footer" class="shadow">
+      </details>
+      <a href="research.html">Research</a>
+      <a href="events.html">Events</a>
+      <a href="courses.html">Courses</a>
+      <a href="positions.html">Join us</a>
+    </nav>
+  </div>
+</header>
+<!-- site-header:end -->
+<main id="main-content" class="site-width page-content people-page">
+<p class="eyebrow">People</p>
+<section class="content-section people-section">
+ <h1 id="faculty">
+  Faculty
+ </h1>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Ebor/" rel="noopener" target="_blank">
+     <img alt="Allan Borodin" decoding="async" height="130" loading="lazy" src="people/borodin2.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
     <p>
-      &copy; Template design by <a href="https://andreasviklund.com/"
-      target="_blank">andreasviklund.com</a> <br>
-      &copy; 2026 - 2027 Department of Computer Science, University of Toronto
+     <a href="https://www.cs.toronto.edu/%7Ebor/" rel="noopener" target="_blank">
+      <strong>
+       Allan Borodin
+      </strong>
+     </a>
+     <br/>
+     Complexity Theory,
+     <br/>
+     Online Algorithms,
+     <br/>
+     Game Theory
     </p>
-  </footer>
-
-  <script type="text/javascript">
-    $(window).load(function() {
-
-      $('#nav li').hover(
-        function () {
-          $('ul', this).stop().slideDown(0);
-        },
-        function () {
-          $('ul', this).stop().slideUp(0);
-        }
-      );
-
-    });
-  </script>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Efaith" rel="noopener" target="_blank">
+     <img alt="Faith Ellen" class="fac_img" decoding="async" height="130" loading="lazy" src="people/faith.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Efaith" rel="noopener" target="_blank">
+      <strong>
+       Faith Ellen
+      </strong>
+     </a>
+     <br/>
+     Distributed Complexity,
+     <br/>
+     Data Structures,
+     <br/>
+     Lower Bounds
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.columbia.edu/~ug2150/" rel="noopener" target="_blank">
+     <img alt="Uma Girish" decoding="async" height="130" loading="lazy" src="people/uma.jpeg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.columbia.edu/~ug2150/" rel="noopener" target="_blank">
+      <strong>
+       Uma Girish
+      </strong>
+     </a>
+     <br/>
+     Quantum Computing,
+     <br/>
+     Complexity Theory
+     <br/>
+     (Incoming)
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Evassos/" rel="noopener" target="_blank">
+     <img alt="Vassos Hadzilacos" decoding="async" height="130" loading="lazy" src="people/vassos.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Evassos/" rel="noopener" target="_blank">
+      <strong>
+       Vassos Hadzilacos
+      </strong>
+     </a>
+     <br/>
+     Distributed Computing
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.math.toronto.edu/swastik/" rel="noopener" target="_blank">
+     <img alt="Swastik Kopparty" decoding="async" height="130" loading="lazy" src="people/swastik.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.math.toronto.edu/swastik/" rel="noopener" target="_blank">
+      <strong>
+       Swastik Kopparty
+      </strong>
+     </a>
+     <br/>
+     Complexity Theory,
+     <br/>
+     Error-Correcting Codes, Pseudorandomness
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Emeel/" rel="noopener" target="_blank">
+     <img alt="Kuldeep Meel" decoding="async" height="130" loading="lazy" src="people/meel.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Emeel/" rel="noopener" target="_blank">
+      <strong>
+       Kuldeep Meel
+      </strong>
+     </a>
+     <br/>
+     Automated Reasoning,
+     <br/>
+     Formal Methods,
+     <br/>
+     Databases (On leave)
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Emolloy/" rel="noopener" target="_blank">
+     <img alt="Michael Molloy" decoding="async" height="130" loading="lazy" src="people/molloy.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Emolloy/" rel="noopener" target="_blank">
+      <strong>
+       Michael Molloy
+      </strong>
+     </a>
+     <br/>
+     Graph Theory,
+     <br/>
+     Combinatorics
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Eanikolov" rel="noopener" target="_blank">
+     <img alt="Aleksandar Nikolov" class="fac_img" decoding="async" height="130" loading="lazy" src="people/nikolov.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Eanikolov" rel="noopener" target="_blank">
+      <strong>
+       Aleksandar Nikolov
+      </strong>
+     </a>
+     <br/>
+     Algorithms,
+     <br/>
+     Discrepancy Theory,
+     <br/>
+     Privacy
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Etoni/" rel="noopener" target="_blank">
+     <img alt="Toniann Pitassi" decoding="async" height="130" loading="lazy" src="people/pitassi.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Etoni/" rel="noopener" target="_blank">
+      <strong>
+       Toniann Pitassi
+      </strong>
+     </a>
+     <br/>
+     Complexity Theory,
+     <br/>
+     Proof Complexity
+     <br/>
+     (On leave)
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Esachdeva/" rel="noopener" target="_blank">
+     <img alt="Sushant Sachdeva" decoding="async" height="130" loading="lazy" src="people/sachdeva.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Esachdeva/" rel="noopener" target="_blank">
+      <strong>
+       Sushant Sachdeva
+      </strong>
+     </a>
+     <br/>
+     Algorithms,
+     <br/>
+     Optimization,
+     <br/>
+     Learning
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.math.toronto.edu/ssaraf/" rel="noopener" target="_blank">
+     <img alt="Shubhangi Saraf" decoding="async" height="130" loading="lazy" src="people/shubhangi.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.math.toronto.edu/ssaraf/" rel="noopener" target="_blank">
+      <strong>
+       Shubhangi Saraf
+      </strong>
+     </a>
+     <br/>
+     Complexity Theory,
+     <br/>
+     Algebraic Computation
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Enisarg/" rel="noopener" target="_blank">
+     <img alt="Nisarg Shah" decoding="async" height="130" loading="lazy" src="people/shah.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Enisarg/" rel="noopener" target="_blank">
+      <strong>
+       Nisarg Shah
+      </strong>
+     </a>
+     <br/>
+     Fairness, Social Choice,
+     <br/>
+     Game Theory,
+     <br/>
+     Mechanism Design
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Eakshayaram/" rel="noopener" target="_blank">
+     <img alt="Akshayaram Srinivasan" decoding="async" height="130" loading="lazy" src="people/Akshay.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Eakshayaram/" rel="noopener" target="_blank">
+      <strong>
+       Akshayaram Srinivasan
+      </strong>
+     </a>
+     <br/>
+     Cryptography
+     <br/>
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://sites.google.com/site/roeitell/" rel="noopener" target="_blank">
+     <img alt="Roei Tell" decoding="async" height="130" loading="lazy" src="people/roei.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://sites.google.com/site/roeitell/" rel="noopener" target="_blank">
+      <strong>
+       Roei Tell
+      </strong>
+     </a>
+     <br/>
+     Complexity Theory,
+     <br/>
+     Pseudorandomness,
+     <br/>
+     and Derandomization
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.cornell.edu/annual_report/toueg.htm" rel="noopener" target="_blank">
+     <img alt="Sam Toueg" class="fac_img" decoding="async" height="130" loading="lazy" src="people/toueg.gif" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.cornell.edu/annual_report/toueg.htm" rel="noopener" target="_blank">
+      <strong>
+       Sam Toueg
+      </strong>
+     </a>
+     <br/>
+     Distributed Computing
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.physics.utoronto.ca/members/wiebe-nathan/" rel="noopener" target="_blank">
+     <img alt="Nathan Wiebe" decoding="async" height="130" loading="lazy" src="people/nathan.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.physics.utoronto.ca/members/wiebe-nathan/" rel="noopener" target="_blank">
+      <strong>
+       Nathan Wiebe
+      </strong>
+     </a>
+     <br/>
+     Quantum Algorithms,
+     <br/>
+     Quantum Machine Learning
+    </p>
+   </div>
+  </div>
+ </div>
+ <!-- <div id="trio3"> -->
+ <!--  <div class="inner"> -->
+ <!--    <div class="fac_img"> -->
+ <!--       <a href="https://www.henryyuen.net" target="_blank"><img src="people/henry.png" -->
+ <!--                height="130" width="130" /></a> -->
+ <!--    </div> -->
+ <!--    <div class="fac_info"> -->
+ <!--       <p> <a href="https://www.henryyuen.net" target="_blank"><strong>Henry Yuen</strong> -->
+ <!--        </a> <br> Quantum Computing, <br> Quantum -->
+ <!--        Cryptography, <br> Complexity Theory<br/> -->
+ <!--        (On leave)</p> -->
+ <!--    </div> -->
+ <!--   </div> -->
+ <!-- </div> -->
+</section>
+<!-- <div id="extended" class="clearfix shadow"> -->
+<!--   <a name="emeriti"></a> -->
+<!--   <h2>Affiliated Faculty</h2> -->
+<section class="content-section people-section">
+ <h2 id="emeriti">
+  Emeriti Faculty
+ </h2>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Esacook/" rel="noopener" target="_blank">
+     <img alt="Stephen Cook" decoding="async" height="130" loading="lazy" src="people/cook.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Esacook/" rel="noopener" target="_blank">
+      <strong>
+       Stephen Cook
+      </strong>
+     </a>
+     <br/>
+     Complexity Theory,
+     <br/>
+     Logic
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="Corneil-bio.htm" rel="noopener" target="_blank">
+     <img alt="Derek Corneil" decoding="async" height="130" loading="lazy" src="people/corneil.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="Corneil-bio.htm" rel="noopener" target="_blank">
+      <strong>
+       Derek Corneil
+      </strong>
+     </a>
+     <br/>
+     Graph Theory
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://www.cs.toronto.edu/%7Erackoff/">
+     <img alt="Charles Rackoff" decoding="async" height="130" loading="lazy" src="people/rackoff.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://www.cs.toronto.edu/%7Erackoff/" rel="noopener" target="_blank">
+      <strong>
+       Charles Rackoff
+      </strong>
+     </a>
+     <br/>
+     Cryptography,
+     <br/>
+     Complexity Theory
+    </p>
+   </div>
+  </div>
+ </div>
+ <div class="person-card">
+  <div class="inner">
+   <div class="fac_img">
+    <a href="https://utoronto.academia.edu/AlasdairUrquhart" rel="noopener" target="_blank">
+     <img alt="Alasdair Urquhart" decoding="async" height="130" loading="lazy" src="people/alasdair.jpg" width="130"/>
+    </a>
+   </div>
+   <div class="fac_info">
+    <p>
+     <a href="https://utoronto.academia.edu/AlasdairUrquhart" rel="noopener" target="_blank">
+      <strong>
+       Alasdair Urquhart
+      </strong>
+     </a>
+     <br/>
+     Complexity of Proofs,
+     <br/>
+     Logic,
+     <br/>
+     History of Logic
+    </p>
+   </div>
+  </div>
+ </div>
+</section>
+<section class="content-section">
+ <h2>
+  Administrative Staff
+ </h2>
+ <div class="inner">
+  <ul>
+   <li>
+    <a href="https://web.cs.toronto.edu/people/staff-directory" rel="noopener" target="_blank">
+     Jankie Ramsook
+    </a>
+    (Faculty Services Support Assistant)
+   </li>
+   <li>
+    <a href="https://web.cs.toronto.edu/people/staff-directory" rel="noopener" target="_blank">
+     Malcolm Safo
+    </a>
+    (Computer Science Support Specialist)
+   </li>
+  </ul>
+ </div>
+</section>
+</main>
+<!-- site-footer:start -->
+<footer class="site-footer">
+  <div class="site-width footer-main">
+    <div><p class="footer-title">Theory Group</p><p>Department of Computer Science<br>University of Toronto</p></div>
+    <nav class="footer-links" aria-label="Resources">
+      <a href="positions.html">Graduate study &amp; postdocs</a>
+      <a href="courses.html">Graduate courses</a>
+      <a href="https://wwwlogin.cs.toronto.edu/theorylists/">Group mailing lists (department access)</a>
+      <a href="https://github.com/utoronto-theory/webpage">Contribute to this website</a>
+    </nav>
+  </div>
+  <div class="site-width footer-note">
+    <span>&copy; Department of Computer Science, University of Toronto</span>
+    <span>Original template by <a href="https://andreasviklund.com/">Andreas Viklund</a></span>
+  </div>
+</footer>
+<!-- site-footer:end -->
 </body>
 </html>
