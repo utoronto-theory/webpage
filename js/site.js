@@ -31,8 +31,10 @@
     if (!people.contains(event.target)) people.open = false;
     if (!nav.contains(event.target) && !toggle.contains(event.target)) closeMenu();
   });
-  nav.addEventListener('focusout', event => {
-    if (!people.contains(event.relatedTarget)) people.open = false;
+  // Safari can blur the summary before a clicked link receives its click.
+  // Close on actual focus outside People so the link stays visible until then.
+  document.addEventListener('focusin', event => {
+    if (!people.contains(event.target)) people.open = false;
   });
   const desktop = window.matchMedia('(min-width: 56rem)');
   desktop.addEventListener('change', () => {
